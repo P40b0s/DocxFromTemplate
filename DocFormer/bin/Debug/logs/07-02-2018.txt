@@ -1,0 +1,9 @@
+07-02-2018 17:30:33|FATAL|TESTNET|System.IO.DirectoryNotFoundException: Не удалось найти часть пути "Шаблоны\АПС\АКТ приемки оборудования.docx".
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 456|System.IO.DirectoryNotFoundException: Не удалось найти часть пути "Шаблоны\АПС\АКТ приемки оборудования.docx".
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 456

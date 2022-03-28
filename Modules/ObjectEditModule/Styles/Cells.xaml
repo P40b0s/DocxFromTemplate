@@ -1,0 +1,71 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Buttons/TransparentButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Icons.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <DataTemplate x:Key="NameCellTemplate">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding ObjectName}"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="5,0,0,0"
+                   TextWrapping="Wrap"
+                   Grid.Column="1"
+                   FontSize="14">
+            </TextBlock>
+
+            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=DataContext.EditCommand}"
+                              CommandParameter="{Binding Id}"
+                                Style="{StaticResource TransparentButton}"
+                                ToolTip="Редактировать организацию"
+                                Width="25"
+                                Grid.Column="0"
+                                VerticalAlignment="Top"
+                    
+                                Height="25" Margin="0,3,0,0">
+                <Image Source="{StaticResource EditIcon}" Width="25"/>
+            </Button>
+
+            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=DataContext.DeleteCommand}"
+                              CommandParameter="{Binding Id}"
+                                Style="{StaticResource TransparentButton}"
+                                ToolTip="Удалить запись"
+                                Width="25"
+                                Grid.Column="0"
+                                Margin="0,27,0,3"
+                                Height="25">
+                <Image Source="{StaticResource DeleteIcon}" Width="25"/>
+            </Button>
+        </Grid>
+       
+        <!--<DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding PublDatePortal.HasValue}" Value="true">
+                <Setter TargetName="datetext"  Property="Visibility" Value="Visible"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>-->
+    </DataTemplate>
+
+    <DataTemplate x:Key="AddressCellTemplate">
+        <TextBlock Text="{Binding ObjectAdresse}"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="5,0,0,0"
+                   TextWrapping="Wrap"
+                   FontSize="14">
+        </TextBlock>
+    </DataTemplate>
+
+</ResourceDictionary>

@@ -1,0 +1,4 @@
+19-02-2018 11:17:45|FATAL|TESTNET|System.Exception: Ошибка! запись Оповещатель звуковой "Сирена" ОПОП 2-35 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 337|System.Exception: Ошибка! запись Оповещатель звуковой "Сирена" ОПОП 2-35 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 337
+19-02-2018 11:17:46|INFO|TESTNET|Ошибка! запись Оповещатель звуковой "Сирена" ОПОП 2-35 уже существует!|

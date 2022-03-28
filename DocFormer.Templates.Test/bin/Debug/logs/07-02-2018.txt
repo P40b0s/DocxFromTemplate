@@ -1,0 +1,19 @@
+07-02-2018 12:09:24|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "Шаблоны\АПС\АКТ приемки оборудования.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 437|System.IO.IOException: Процесс не может получить доступ к файлу "Шаблоны\АПС\АКТ приемки оборудования.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 437
+07-02-2018 17:12:49|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 957
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 460|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 957
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 460
+07-02-2018 17:16:07|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 957
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 460|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 957
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 460

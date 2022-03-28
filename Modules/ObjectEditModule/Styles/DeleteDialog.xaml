@@ -1,0 +1,73 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Buttons/TransparentButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Icons.xaml"/>
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Cyan.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <ContentControl x:Key="DeleteDialog">
+        <!--<StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Background="White">
+                <TextBlock Text="Наименование организации" FontSize="16"/>
+                <TextBox Text="{Binding AddingOrganization.Name, Mode=TwoWay}" FontSize="16"/>
+            </StackPanel>
+        </StackPanel>-->
+
+        <Grid Width="400">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock FontSize="16"
+                       Grid.Row="0"
+                       VerticalAlignment="Center"
+                       TextWrapping="Wrap"
+                       Margin="10 20 10 20">
+                <Run Text="Удалить объект "/>
+                <Run Text="{Binding AddItem.ObjectName}" Foreground="Red" FontWeight="Bold"/>
+                <Run Text="?"/>
+            </TextBlock>
+            
+            <TextBlock Text="{Binding DeleteMessage}"
+                       Grid.Row="1"
+                       FontSize="14"
+                       Foreground="#FFEA3636"
+                       Margin="10, 0 ,10, 0"/>
+
+
+            <Button Content="Да"
+                    Command="{Binding DeleteAcceptCommand}"
+                    Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Grid.Row="2"
+                    Width="100"
+                    HorizontalAlignment="Left"
+                    Margin="15,0,0,0"/>
+
+            <Button Content="Отмена"
+                    Command="{Binding DeleteRejectCommand}"
+                    Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Grid.Row="2"
+                    Width="100"
+                    HorizontalAlignment="Right"
+                    Margin="0,0,15,0"/>
+
+
+        </Grid>
+        
+    </ContentControl>
+
+</ResourceDictionary>

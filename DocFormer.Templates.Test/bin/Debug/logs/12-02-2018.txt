@@ -1,0 +1,42 @@
+12-02-2018 15:02:23|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 141
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 27|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 141
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 27
+12-02-2018 15:02:23|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 332|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 332
+12-02-2018 15:02:25|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 332|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 332
+12-02-2018 15:07:11|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 141
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 27|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 141
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 27
+12-02-2018 15:15:35|FATAL|TESTNET|System.NotImplementedException: У объекта Аверин А.С. нет связанной с ним организации
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331|System.NotImplementedException: У объекта Аверин А.С. нет связанной с ним организации
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331
+12-02-2018 15:15:36|FATAL|TESTNET|System.NotImplementedException: У объекта Аверин А.С. нет связанной с ним организации
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331|System.NotImplementedException: У объекта Аверин А.С. нет связанной с ним организации
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331

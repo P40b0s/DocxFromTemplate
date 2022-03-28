@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\bin\Debug\DocFormer.Resources.dll
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\bin\Debug\DocFormer.Resources.pdb
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\DocFormer.Resources.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\DocFormer.Resources.dll
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\DocFormer.Resources.pdb
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\DocFormer.Resources.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\DocFormer.Resources_MarkupCompile.cache
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\DocFormer.Resources.g.resources
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\Buttons\TransparentButton.baml
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\Icons.baml
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\Headers.baml
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\Colors.baml
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Resources\obj\Debug\CellsButtons.baml

@@ -1,0 +1,177 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:converters="clr-namespace:DocFormer.Modules.TechnologyEditModule.Converters"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Buttons/TransparentButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Icons.xaml"/>
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ComboBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Cyan.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <converters:GuidToValueConverter x:Key="GuidConverter"/>
+    <ContentControl x:Key="EditDialog">
+        <!--<StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Background="White">
+                <TextBlock Text="Наименование организации" FontSize="16"/>
+                <TextBox Text="{Binding AddingOrganization.Name, Mode=TwoWay}" FontSize="16"/>
+            </StackPanel>
+        </StackPanel>-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Вид оборудования"
+                       FontSize="16"
+                       Grid.Row="0"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <ComboBox ItemsSource="{Binding technologyType.Keys}"
+                      SelectedItem="{Binding AddItem.TechnologyType, Mode=TwoWay}"
+                      FontSize="16"
+                      Grid.Row="0"
+                      Grid.Column="1"
+                      Style="{StaticResource MaterialDesignComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource GuidConverter}">
+                                        <MultiBinding.Bindings>
+                                            <Binding Path="" />
+                                            <Binding Path="DataContext.technologyType" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType={x:Type ComboBox}}"/>
+                                        </MultiBinding.Bindings>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <TextBlock Text="Наименование оборудования"
+                       FontSize="16"
+                       Grid.Row="1"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <TextBox Text="{Binding AddItem.TechnologyName, Mode=TwoWay}"
+                     FontSize="16"
+                     Grid.Row="1"
+                     Grid.Column="1"
+                     TextWrapping="Wrap"
+                     Style="{StaticResource MaterialDesignTextBox}"/>
+
+            <TextBlock Text="Марка оборудования"
+                       FontSize="16"
+                       Grid.Row="2"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <TextBox Text="{Binding AddItem.TechnologyMark, Mode=TwoWay}"
+                     FontSize="16"
+                     Grid.Row="2"
+                     Grid.Column="1"
+                     TextWrapping="Wrap"
+                     Style="{StaticResource MaterialDesignTextBox}"/>
+
+
+            <TextBlock Text="Изготовитель оборудования"
+                       FontSize="16"
+                       Grid.Row="3"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <TextBox Text="{Binding AddItem.TechnologyCreator, Mode=TwoWay}"
+                     FontSize="16"
+                     Grid.Row="3"
+                     Grid.Column="1"
+                     TextWrapping="Wrap"
+                     Style="{StaticResource MaterialDesignTextBox}"/>
+
+            <TextBlock Text="Количество"
+                       FontSize="16"
+                       Grid.Row="4"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <metro:NumericUpDown Value="{Binding AddItem.Count, Mode=TwoWay}"
+                     FontSize="16"
+                     Grid.Row="4"
+                     Grid.Column="1"/>
+
+            <TextBlock Text="Единица измерения"
+                       FontSize="16"
+                       Grid.Row="5"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <ComboBox ItemsSource="{Binding technologyCountType.Keys}"
+                      SelectedItem="{Binding AddItem.CountType, Mode=TwoWay}"
+                      FontSize="16"
+                      Grid.Row="5"
+                      Grid.Column="1"
+                      Style="{StaticResource MaterialDesignComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource GuidConverter}">
+                                        <MultiBinding.Bindings>
+                                            <Binding Path="" />
+                                            <Binding Path="DataContext.technologyCountType" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType={x:Type ComboBox}}"/>
+                                        </MultiBinding.Bindings>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+         
+
+
+
+            <TextBlock Text="{Binding SaveMessage}"
+                       FontSize="16"
+                       Grid.Row="6"
+                       Foreground="#FFEE3131"
+                       TextWrapping="Wrap"
+                       Grid.ColumnSpan="2"/>
+
+            <Button Content="Сохранить"
+                    Command="{Binding SaveCommand}"
+                    Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Grid.Row="7"
+                    Grid.ColumnSpan="2"
+                    Margin="0 20 0 0"/>
+        </Grid>
+        
+    </ContentControl>
+
+</ResourceDictionary>

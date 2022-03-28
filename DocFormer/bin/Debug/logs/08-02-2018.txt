@@ -1,0 +1,5 @@
+08-02-2018 10:01:32|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 339|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 339

@@ -1,0 +1,113 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:converters="clr-namespace:DocFormer.Modules.ActSelectorModule.Converters"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Buttons/TransparentButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Icons.xaml"/>
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ComboBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Cyan.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <converters:GuidToValueConverter x:Key="GuidConverter"/>
+    <ContentControl x:Key="EditDialog">
+        <!--<StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Background="White">
+                <TextBlock Text="Наименование организации" FontSize="16"/>
+                <TextBox Text="{Binding AddingOrganization.Name, Mode=TwoWay}" FontSize="16"/>
+            </StackPanel>
+        </StackPanel>-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Фио"
+                       FontSize="16"
+                       Grid.Row="1"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <ComboBox ItemsSource="{Binding EtalonCustomers}"
+                      SelectedItem="{Binding AddItem, Mode=TwoWay}"
+                      FontSize="16"
+                      Grid.Row="1"
+                      Grid.Column="1"
+                      Style="{StaticResource MaterialDesignComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding FIO}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            
+            <TextBlock Text="Тип"
+                       FontSize="16"
+                       Grid.Row="2"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+
+            <ComboBox ItemsSource="{Binding customersType.Keys}"
+                      SelectedItem="{Binding AddItem.Type, Mode=TwoWay}"
+                      FontSize="16"
+                      Grid.Row="2"
+                      Grid.Column="1"
+                      Style="{StaticResource MaterialDesignComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource GuidConverter}">
+                                        <MultiBinding.Bindings>
+                                            <Binding Path="" />
+                                            <Binding Path="DataContext.customersType" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType={x:Type ComboBox}}"/>
+                                        </MultiBinding.Bindings>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+         
+
+            <TextBlock Text="{Binding SaveMessage}"
+                       FontSize="16"
+                       Grid.Row="3"
+                       VerticalAlignment="Center"
+                       Foreground="#FFEE3131"
+                       TextWrapping="Wrap"
+                       Grid.ColumnSpan="2"/>
+
+            <Button Content="Добавить"
+                    Command="{Binding SaveCommand}"
+                    Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Grid.Row="4"
+                    Grid.ColumnSpan="2"
+                    Margin="0 20 0 0"/>
+        </Grid>
+        
+    </ContentControl>
+
+</ResourceDictionary>

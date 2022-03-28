@@ -1,0 +1,169 @@
+16-02-2018 09:26:22|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 34|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 34
+16-02-2018 09:30:08|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 35|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 35
+16-02-2018 09:34:22|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 35|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 35
+16-02-2018 09:34:52|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 35|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 35
+16-02-2018 09:41:23|FATAL|TESTNET|System.MissingMethodException: ћетод не найден: "System.String DocFormer.Core.Models.TechnologyCountType.get_CountTypeName()".
+   в DocFormer.SQLMethods.<>c.<SelectCollections>b__2_5(TechnologyCountType v)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 34|System.MissingMethodException: ћетод не найден: "System.String DocFormer.Core.Models.TechnologyCountType.get_CountTypeName()".
+   в DocFormer.SQLMethods.<>c.<SelectCollections>b__2_5(TechnologyCountType v)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 34
+16-02-2018 11:27:27|FATAL|TESTNET|System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+NOT NULL constraint failed: TechnologyList.TechnologyType
+   в System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 341|System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+NOT NULL constraint failed: TechnologyList.TechnologyType
+   в System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 341
+16-02-2018 11:27:28|INFO|TESTNET|ќшибка! дл€ подробностей вы можете ознакомитьс€ с log файлом - |
+16-02-2018 12:07:42|FATAL|TESTNET|System.Exception: ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338|System.Exception: ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338
+16-02-2018 12:07:42|INFO|TESTNET|ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!|
+16-02-2018 12:10:05|FATAL|TESTNET|System.Exception: ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338|System.Exception: ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338
+16-02-2018 12:10:05|INFO|TESTNET|ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!|
+16-02-2018 12:16:11|FATAL|TESTNET|System.Exception: ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338|System.Exception: ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338
+16-02-2018 12:16:11|INFO|TESTNET|ќшибка!  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!|
+16-02-2018 12:26:48|FATAL|TESTNET|System.Exception: ќшибка! запись  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338|System.Exception: ќшибка! запись  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(TechnologyModel tech) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 338
+16-02-2018 12:26:48|INFO|TESTNET|ќшибка! запись  ороб монтажный электротехнический (с аксессуарами) 20x10 уже существует!|
+16-02-2018 13:17:17|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ApsAndSoueModule.ViewModels.ApsAndSoueModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ApsAndSoueModuleViewModel.cs:строка 73|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ApsAndSoueModule.ViewModels.ApsAndSoueModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ApsAndSoueModuleViewModel.cs:строка 73
+16-02-2018 13:33:22|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ApsAndSoueModule.ViewModels.ApsAndSoueModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ApsAndSoueModuleViewModel.cs:строка 73|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ApsAndSoueModule.ViewModels.ApsAndSoueModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ApsAndSoueModuleViewModel.cs:строка 73
+16-02-2018 13:54:04|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 73|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 73
+16-02-2018 14:05:17|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 73|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 73
+16-02-2018 14:10:03|FATAL|TESTNET|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 73|System.ArgumentException: Ёлемент с тем же ключом уже был добавлен.
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.LoadFromSQLComplete() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 73
+16-02-2018 14:44:23|FATAL|TESTNET|System.Exception: ќшибка! Ќеобходимо выбрать тип субъекта!
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Save() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 257|System.Exception: ќшибка! Ќеобходимо выбрать тип субъекта!
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Save() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 257
+16-02-2018 15:12:44|FATAL|TESTNET|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.SQLMethods.SyncCollection(ObservableCollection`1 col) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 74|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.SQLMethods.SyncCollection(ObservableCollection`1 col) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 74
+16-02-2018 15:21:33|FATAL|TESTNET|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.Add() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 284|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.Add() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 284
+16-02-2018 15:21:36|FATAL|TESTNET|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.Add() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 284|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.Add() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 284
+16-02-2018 15:21:37|FATAL|TESTNET|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.Add() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 284|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.Modules.ActSelectorModule.ViewModels.ActSelectorModuleViewModel.Add() в C:\Users\Admin\source\repos\DocFormer\Modules\ApsAndSoueModule\ViewModels\ActSelectorModuleViewModel.cs:строка 284
+16-02-2018 15:44:13|FATAL|TESTNET|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.SQLMethods.<>c__DisplayClass8_0.<InsertOrUpdate>b__1(Customers item) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 230
+   в System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 230|System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в DocFormer.SQLMethods.<>c__DisplayClass8_0.<InsertOrUpdate>b__1(Customers item) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 230
+   в System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 230
+16-02-2018 15:44:13|INFO|TESTNET|ќшибка! дл€ подробностей вы можете ознакомитьс€ с log файлом - |

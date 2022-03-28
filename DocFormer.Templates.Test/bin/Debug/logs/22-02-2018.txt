@@ -1,0 +1,939 @@
+22-02-2018 09:38:14|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:14|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:14|FATAL|TESTNET|System.IO.FileFormatException: Файл архива не может иметь нулевой размер.
+   в MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   в DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   в DocumentFormat.OpenXml.Packaging.WordprocessingDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   в TemplateEngine.Docx.TemplateProcessor..ctor(String fileName)
+   в DocFormer.Templates.APS.VControl.TEST() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331|System.IO.FileFormatException: Файл архива не может иметь нулевой размер.
+   в MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   в DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   в DocumentFormat.OpenXml.Packaging.WordprocessingDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   в TemplateEngine.Docx.TemplateProcessor..ctor(String fileName)
+   в DocFormer.Templates.APS.VControl.TEST() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331
+22-02-2018 09:38:14|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:14|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 09:38:15|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:15|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) АКТ приемки оборудования.docx|
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 09:38:15|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:15|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) АКТ приемки оборудования.docx|
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 09:38:15|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:15|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) АКТ приемки смонтированного оборудования.docx|
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 09:38:15|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:15|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) АКТ приемки смонтированного оборудования.docx|
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:15|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:16|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 09:38:16|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:16|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) Ведомость смонтированного оборудования.docx|
+22-02-2018 09:38:16|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 09:38:16|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 09:38:16|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) Ведомость смонтированного оборудования.docx|
+22-02-2018 09:38:16|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:16|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 09:38:16|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:20|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.IO.FileFormatException: Файл архива не может иметь нулевой размер.
+   в MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   в DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   в DocumentFormat.OpenXml.Packaging.WordprocessingDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   в TemplateEngine.Docx.TemplateProcessor..ctor(String fileName)
+   в DocFormer.Templates.APS.VControl.TEST() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331|System.IO.FileFormatException: Файл архива не может иметь нулевой размер.
+   в MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   в DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   в DocumentFormat.OpenXml.Packaging.WordprocessingDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   в TemplateEngine.Docx.TemplateProcessor..ctor(String fileName)
+   в DocFormer.Templates.APS.VControl.TEST() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) АКТ приемки оборудования.docx|
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) АКТ приемки оборудования.docx|
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) АКТ приемки смонтированного оборудования.docx|
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) АКТ приемки смонтированного оборудования.docx|
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) Ведомость смонтированного оборудования.docx|
+22-02-2018 10:06:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:06:21|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:06:21|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) Ведомость смонтированного оборудования.docx|
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:06:21|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:04|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:06|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:07|FATAL|TESTNET|System.IO.FileFormatException: Файл архива не может иметь нулевой размер.
+   в MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   в DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   в DocumentFormat.OpenXml.Packaging.WordprocessingDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   в TemplateEngine.Docx.TemplateProcessor..ctor(String fileName)
+   в DocFormer.Templates.APS.VControl.TEST() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331|System.IO.FileFormatException: Файл архива не может иметь нулевой размер.
+   в MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   в System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   в DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   в DocumentFormat.OpenXml.Packaging.WordprocessingDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   в TemplateEngine.Docx.TemplateProcessor..ctor(String fileName)
+   в DocFormer.Templates.APS.VControl.TEST() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 331
+22-02-2018 10:40:08|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:08|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:08|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:40:09|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:09|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) АКТ приемки оборудования.docx|
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:40:09|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:09|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) АКТ приемки оборудования.docx|
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:40:09|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:09|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) АКТ приемки смонтированного оборудования.docx|
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:40:09|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:09|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) АКТ приемки смонтированного оборудования.docx|
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:40:09|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:09|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(АПС) Ведомость смонтированного оборудования.docx|
+22-02-2018 10:40:09|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 539
+22-02-2018 10:40:09|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: |
+22-02-2018 10:40:09|FATAL|TESTNET|Сформированные документы\АПС\22.02.2018\(СОУЭ) Ведомость смонтированного оборудования.docx|
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+22-02-2018 10:40:09|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 517
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26

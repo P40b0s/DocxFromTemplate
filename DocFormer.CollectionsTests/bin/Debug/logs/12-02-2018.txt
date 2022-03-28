@@ -1,0 +1,45 @@
+12-02-2018 13:01:30|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 54
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 54
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+12-02-2018 13:01:45|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 54
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 54
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26
+12-02-2018 13:02:46|FATAL|TESTNET|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 54
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26|System.DllNotFoundException: Не удается загрузить DLL "SQLite.Interop.dll": Не найден указанный модуль. (Исключение из HRESULT: 0x8007007E)
+   в System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   в System.Data.SQLite.SQLite3.StaticIsInitialized()
+   в System.Data.SQLite.SQLiteLog.Initialize()
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   в System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   в DocFormer.SQLMethods.SqlLiteConnection() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 54
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 26

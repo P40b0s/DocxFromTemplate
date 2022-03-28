@@ -1,0 +1,188 @@
+02-02-2018 09:37:18|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 185|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 185
+02-02-2018 10:08:09|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165
+02-02-2018 10:08:19|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165
+02-02-2018 10:08:34|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165
+02-02-2018 10:08:54|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165
+02-02-2018 10:09:06|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.GetBorder(TableBorderType borderType)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 165
+02-02-2018 12:16:57|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 240|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 240
+02-02-2018 12:28:43|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 258|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 258
+02-02-2018 12:44:56|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 283|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 283
+02-02-2018 12:47:37|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 284|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 284
+02-02-2018 12:56:42|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 240|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 240
+02-02-2018 13:31:52|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 296|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 296
+02-02-2018 15:20:11|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 349|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 349
+02-02-2018 15:36:02|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 354|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 354
+02-02-2018 15:41:44|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 369|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 369
+02-02-2018 15:47:26|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 376|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 376
+02-02-2018 16:10:46|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 361|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 361
+02-02-2018 16:12:38|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 361|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 361
+02-02-2018 16:18:13|FATAL|TESTNET|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 361|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates.Test\bin\Debug\simple.docx", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Xceed.Words.NET.DocX.Save()
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 361
+02-02-2018 16:28:20|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 255|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Xceed.Words.NET.Table.set_AutoFit(AutoFit value)
+   в DocFormer.Templates.APS.VControl.GenerateDocx() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 255

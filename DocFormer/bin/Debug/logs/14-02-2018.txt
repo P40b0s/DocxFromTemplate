@@ -1,0 +1,431 @@
+14-02-2018 12:18:01|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 242|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 242
+14-02-2018 12:18:01|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+14-02-2018 12:18:19|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 253|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 253
+14-02-2018 12:18:19|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+14-02-2018 12:24:11|FATAL|TESTNET|System.Exception: Ошибка! Необходимо выбрать тип субъекта!
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Save() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 208|System.Exception: Ошибка! Необходимо выбрать тип субъекта!
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Save() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 208
+14-02-2018 14:24:31|FATAL|TESTNET|System.Data.SQLite.SQLiteException (0x80004005): database is locked
+database is locked
+   в System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 186|System.Data.SQLite.SQLiteException (0x80004005): database is locked
+database is locked
+   в System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 186
+14-02-2018 14:24:32|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+14-02-2018 16:12:16|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302
+14-02-2018 16:12:20|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302
+14-02-2018 16:12:21|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302
+14-02-2018 16:12:22|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302
+14-02-2018 16:15:19|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302
+14-02-2018 16:15:22|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 302
+14-02-2018 16:16:50|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303
+14-02-2018 16:17:25|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 304|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 304
+14-02-2018 16:26:15|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:26:23|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303
+14-02-2018 16:26:44|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:26:48|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303
+14-02-2018 16:27:27|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:28:10|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:28:17|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303
+14-02-2018 16:32:39|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:34:16|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:34:25|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303
+14-02-2018 16:35:25|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:35:41|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.Converters.GuidToValueConverter.Convert(Object[] values, Type targetType, Object parameter, CultureInfo culture) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\Converters\GuidToValueConverter.cs:строка 23
+   в System.Windows.Data.MultiBindingExpression.TransferValue()
+   в System.Windows.Data.MultiBindingExpression.Transfer()
+   в System.Windows.Data.MultiBindingExpression.InvalidateChild(BindingExpressionBase bindingExpression)
+   в System.Windows.Data.BindingExpressionBase.Invalidate(Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   в System.Windows.Data.BindingExpression.ScheduleTransfer(Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.NewValueAvailable(Boolean dependencySourcesChanged, Boolean initialValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.ClrBindingWorker.OnSourcePropertyChanged(Object o, String propName)
+   в MS.Internal.Data.PropertyPathWorker.OnPropertyChanged(Object sender, PropertyChangedEventArgs e)
+   в System.Windows.WeakEventManager.ListenerList`1.DeliverEvent(Object sender, EventArgs e, Type managerType)
+   в System.ComponentModel.PropertyChangedEventManager.OnPropertyChanged(Object sender, PropertyChangedEventArgs args)
+   в DocFormer.Core.Models.PropertyChangedRealization.OnPropertyChanged(String propertyName) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\Models\PropertyChangedRealization.cs:строка 19
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.set_organizationsType(Dictionary`2 value) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 141
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.OrganizationTableUpdate() в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 42
+14-02-2018 16:35:45|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 303
+14-02-2018 16:40:40|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 305|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 305
+14-02-2018 16:41:15|FATAL|TESTNET|System.Data.SQLite.SQLiteException (0x80004005): database is locked
+database is locked
+   в System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 251|System.Data.SQLite.SQLiteException (0x80004005): database is locked
+database is locked
+   в System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Customers c) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 251
+14-02-2018 16:41:15|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+14-02-2018 16:44:10|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 305|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 305
+14-02-2018 17:00:49|FATAL|TESTNET|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 306|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в DocFormer.Modules.CustomerEditModule.ViewModels.CustomerEditModuleViewModel.Edit(Object id) в C:\Users\Admin\source\repos\DocFormer\Modules\CustomerEditModule\ViewModels\CustomerEditModuleViewModel.cs:строка 306

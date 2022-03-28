@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="DocFormer.Modules.OrganizationEditModule.Views.OrganizationEditModuleView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:cwindow="clr-namespace:MahApps.Metro.SimpleChildWindow;assembly=MahApps.Metro.SimpleChildWindow"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Headers.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/DocFormer.Modules.OrganizationEditModule;component/Styles/Cells.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/DocFormer.Modules.OrganizationEditModule;component/Styles/EditDialog.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/DocFormer.Modules.OrganizationEditModule;component/Styles/DeleteDialog.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/DocFormer.Resources;component/Icons.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/DocFormer.Modules.OrganizationEditModule;component/Styles/ItemsContainerStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <ListView ItemsSource="{Binding Org}"
+                  ItemContainerStyle="{StaticResource ListViewItemStyle}"
+                  HorizontalAlignment="Left">
+            <ListView.View>
+            <GridView>
+                <GridViewColumn 
+                        Header="Наименование организации" 
+                        Width="265" 
+                        HeaderContainerStyle="{StaticResource FirstHeaderStyle}" 
+                        CellTemplate="{StaticResource NameCellTemplate}"/>
+                <GridViewColumn 
+                        Header="Адрес организации" 
+                        Width="245" 
+                        HeaderContainerStyle="{StaticResource  StringHeaderStyle}" 
+                        CellTemplate="{StaticResource AddressCellTemplate}"/>
+                    <GridViewColumn 
+                        Header="Номер лицензии" 
+                        Width="245" 
+                        HeaderContainerStyle="{StaticResource  StringHeaderStyle}" 
+                        CellTemplate="{StaticResource  LicenseNumberCellTemplate}"/>
+                    <GridViewColumn 
+                        Header="Срок действия лицензии" 
+                        Width="245" 
+                        HeaderContainerStyle="{StaticResource  StringHeaderStyle}" 
+                        CellTemplate="{StaticResource  LicenseValidityPeriodCellTemplate}"/>
+                    <GridViewColumn 
+                        Header="Кем выдана лицензия" 
+                        Width="245" 
+                        HeaderContainerStyle="{StaticResource  StringHeaderStyle}" 
+                        CellTemplate="{StaticResource  LicenseIssuedCellTemplate}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+        <cwindow:ChildWindow CloseByEscape="True"
+                             ShowCloseButton="True"
+                             IsOpen="{Binding EditWindowIsOpen}" 
+                             Title="{Binding WindowTitle}"
+                             Content="{StaticResource EditDialog}">
+
+            <cwindow:ChildWindow.Icon>
+                <md:PackIcon Width="25"
+                              Height="25"
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center"
+                              Foreground="Green"
+                              Kind="Sync" />
+            </cwindow:ChildWindow.Icon>
+           
+        </cwindow:ChildWindow>
+
+        <cwindow:ChildWindow CloseByEscape="True"
+                             ShowCloseButton="True"
+                             IsOpen="{Binding DeleteWindowIsOpen}" 
+                             Title="{Binding WindowTitle}"
+                             Content="{StaticResource DeleteDialog}">
+
+            <cwindow:ChildWindow.Icon>
+                <md:PackIcon Width="25"
+                              Height="25"
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center"
+                              Foreground="Red"
+                              Kind="Delete" />
+            </cwindow:ChildWindow.Icon>
+
+        </cwindow:ChildWindow>
+
+
+    </Grid>
+</UserControl>

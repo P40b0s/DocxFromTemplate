@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\bin\Debug\DocFormer.Core.dll
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\bin\Debug\DocFormer.Core.pdb
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\obj\Debug\DocFormer.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\obj\Debug\DocFormer.Core.dll
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\obj\Debug\DocFormer.Core.pdb
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\obj\Debug\DocFormer.Core.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\bin\Debug\Dapper.dll
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\bin\Debug\Dapper.xml
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\bin\Debug\Prism.dll
+C:\Users\Admin\source\repos\DocFormer\DocFormer.Core\bin\Debug\Prism.xml

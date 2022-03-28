@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B705C281-F20F-4A03-BA65-C87F6689EBA1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DocFormer.Core</RootNamespace>
+    <AssemblyName>DocFormer.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.4\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Prism, Version=7.0.0.396, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Core.7.0.0.396\lib\net45\Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\ObservableDictionary.cs" />
+    <Compile Include="Converters\GuidToStringConverter.cs" />
+    <Compile Include="Enums\RefreshType.cs" />
+    <Compile Include="Enums\TemplatesActTypeEnum.cs" />
+    <Compile Include="ErrorsValidation\Errors.cs" />
+    <Compile Include="ErrorsValidation\ErrorType.cs" />
+    <Compile Include="EventsAggregator\CustomerUpdateEvent.cs" />
+    <Compile Include="EventsAggregator\ObjectsUpdateEvent.cs" />
+    <Compile Include="EventsAggregator\OrganizationsUpdateEvent.cs" />
+    <Compile Include="EventsAggregator\SqlLoadComplete.cs" />
+    <Compile Include="Interfaces\ICollections.cs" />
+    <Compile Include="IdIdentification.cs" />
+    <Compile Include="Interfaces\IVControl.cs" />
+    <Compile Include="Models\ActsProperties.cs" />
+    <Compile Include="Models\Base.cs" />
+    <Compile Include="ErrorsValidation\CustomErrorType.cs" />
+    <Compile Include="Interfaces\IBase.cs" />
+    <Compile Include="Models\Customers.cs" />
+    <Compile Include="Models\CustomerType.cs" />
+    <Compile Include="Models\DocumentsTags.cs" />
+    <Compile Include="Models\DocumentsTemplates.cs" />
+    <Compile Include="Models\DocumentsNames.cs" />
+    <Compile Include="Models\Exceptions.cs" />
+    <Compile Include="Interfaces\ICustomers.cs" />
+    <Compile Include="Interfaces\IObjects.cs" />
+    <Compile Include="Interfaces\IOrganizations.cs" />
+    <Compile Include="Interfaces\ITechnologyModel.cs" />
+    <Compile Include="Models\Objects.cs" />
+    <Compile Include="Models\ObservableKeyValuePair.cs" />
+    <Compile Include="Models\Organizations.cs" />
+    <Compile Include="Models\PropertyChangedRealization.cs" />
+    <Compile Include="Models\TechnologyModel.cs" />
+    <Compile Include="Models\TechnologyCountType.cs" />
+    <Compile Include="Models\TechnologyType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

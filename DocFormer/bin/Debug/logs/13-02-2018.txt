@@ -1,0 +1,148 @@
+13-02-2018 11:13:53|FATAL|TESTNET|System.NotImplementedException: Организация с именем ООО «Альпина Пласт» уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 168|System.NotImplementedException: Организация с именем ООО «Альпина Пласт» уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 168
+13-02-2018 11:17:01|FATAL|TESTNET|System.NotImplementedException: Ошибка! организация с именем ООО «Альпина Пласт» уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 168|System.NotImplementedException: Ошибка! организация с именем ООО «Альпина Пласт» уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 168
+13-02-2018 13:37:03|FATAL|TESTNET|System.InvalidOperationException: Коллекция была изменена; невозможно выполнить операцию перечисления.
+   в System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   в System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   в System.Collections.Generic.List`1.Enumerator.MoveNext()
+   в System.Linq.Enumerable.<ExceptIterator>d__73`1.MoveNext()
+   в DocFormer.SQLMethods.SyncCollection(ObservableCollection`1 col) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 49|System.InvalidOperationException: Коллекция была изменена; невозможно выполнить операцию перечисления.
+   в System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   в System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   в System.Collections.Generic.List`1.Enumerator.MoveNext()
+   в System.Linq.Enumerable.<ExceptIterator>d__73`1.MoveNext()
+   в DocFormer.SQLMethods.SyncCollection(ObservableCollection`1 col) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 49
+13-02-2018 13:40:14|FATAL|TESTNET|System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+near ""Альпина-пласт"": syntax error
+   в System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   в System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   в System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 179|System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+near ""Альпина-пласт"": syntax error
+   в System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   в System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   в System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 179
+13-02-2018 13:40:14|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+13-02-2018 13:42:38|FATAL|TESTNET|System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+near "Альпина": syntax error
+   в System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   в System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   в System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 179|System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+near "Альпина": syntax error
+   в System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   в System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   в System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 179
+13-02-2018 13:42:38|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+13-02-2018 13:43:38|FATAL|TESTNET|System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+near ""Альпина"": syntax error
+   в System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   в System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   в System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 179|System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+near ""Альпина"": syntax error
+   в System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   в System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   в System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   в System.Data.SQLite.SQLiteDataReader.NextResult()
+   в System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   в System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1053
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1081
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 179
+13-02-2018 13:43:38|INFO|TESTNET|Ошибка! для подробностей вы можете ознакомиться с log файлом - |
+13-02-2018 13:55:09|FATAL|TESTNET|System.Data.DataException: Error parsing column 0 (Id=System.Byte[] - Object) ---> System.InvalidCastException: Заданное приведение является недопустимым.
+   в Deserialize08f0465d-ec3b-4227-84a8-8f90f066b908(IDataReader )
+   --- Конец трассировки внутреннего стека исключений ---
+   в Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 3609
+   в Deserialize08f0465d-ec3b-4227-84a8-8f90f066b908(IDataReader )
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1100
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 30|System.Data.DataException: Error parsing column 0 (Id=System.Byte[] - Object) ---> System.InvalidCastException: Заданное приведение является недопустимым.
+   в Deserialize08f0465d-ec3b-4227-84a8-8f90f066b908(IDataReader )
+   --- Конец трассировки внутреннего стека исключений ---
+   в Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 3609
+   в Deserialize08f0465d-ec3b-4227-84a8-8f90f066b908(IDataReader )
+   в Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() в C:\projects\dapper\Dapper\SqlMapper.cs:строка 1100
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) в C:\projects\dapper\Dapper\SqlMapper.cs:строка 723
+   в DocFormer.SQLMethods.SelectCollections() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 30
+13-02-2018 14:08:00|FATAL|TESTNET|System.NotImplementedException: Ошибка! организация с именем ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181|System.NotImplementedException: Ошибка! организация с именем ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181
+13-02-2018 14:08:01|INFO|TESTNET|Ошибка! организация с именем ООО "Альпина-пласт" уже существует!|
+13-02-2018 14:17:02|FATAL|TESTNET|System.NotImplementedException: Ошибка! организация с именем   ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181|System.NotImplementedException: Ошибка! организация с именем   ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181
+13-02-2018 14:17:02|INFO|TESTNET|Ошибка! организация с именем   ООО "Альпина-пласт" уже существует!|
+13-02-2018 14:18:35|FATAL|TESTNET|System.NotImplementedException: Ошибка! организация с именем ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181|System.NotImplementedException: Ошибка! организация с именем ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181
+13-02-2018 14:18:35|INFO|TESTNET|Ошибка! организация с именем ООО "Альпина-пласт" уже существует!|
+13-02-2018 14:18:59|FATAL|TESTNET|System.NotImplementedException: Ошибка! организация с именем ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181|System.NotImplementedException: Ошибка! организация с именем ООО "Альпина-пласт" уже существует!
+   в DocFormer.SQLMethods.InsertOrUpdate(Organizations org) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Collections\SQLMethods.cs:строка 181
+13-02-2018 14:18:59|INFO|TESTNET|Ошибка! организация с именем ООО "Альпина-пласт" уже существует!|

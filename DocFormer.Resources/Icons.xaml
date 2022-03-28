@@ -1,0 +1,9 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ImageSource x:Key="AddIcon">pack://application:,,,/DocFormer.Resources;component/Icons/plus.png</ImageSource>
+    <ImageSource x:Key="EditIcon">pack://application:,,,/DocFormer.Resources;component/Icons/edit-cut.png</ImageSource>
+    <ImageSource x:Key="DeleteIcon">pack://application:,,,/DocFormer.Resources;component/Icons/delete.png</ImageSource>
+
+</ResourceDictionary>

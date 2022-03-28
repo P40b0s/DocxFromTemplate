@@ -1,0 +1,202 @@
+08-02-2018 10:26:44|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 961
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 464|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 961
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 464
+08-02-2018 12:07:47|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 961
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 464|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 961
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 464
+08-02-2018 12:35:18|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 962
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 465|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getOrganizations() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 962
+   в DocFormer.Templates.APS.VControl.АктПриемкиОборудования_АПС() в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 465
+08-02-2018 13:28:28|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 308|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DocFormer.Templates.APS.VControl.getWordfields(List`1 customers, Objects obj, List`1 tech, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 308
+08-02-2018 15:09:57|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 415|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 415
+08-02-2018 15:10:21|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 415|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 415
+08-02-2018 15:10:29|FATAL|TESTNET|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 415|System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в TemplateEngine.Docx.Processors.TableProcessor.GetPrototype(XContainer tableContentControl, IEnumerable`1 fieldNames)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XContainer contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.TableProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 415
+08-02-2018 15:10:32|FATAL|TESTNET|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 873|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 873
+08-02-2018 16:02:56|FATAL|TESTNET|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 882|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 882
+08-02-2018 16:04:06|FATAL|TESTNET|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 882|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 882
+08-02-2018 16:06:14|FATAL|TESTNET|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 882|System.IO.FileNotFoundException: Файл 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx' не найден.
+Имя файла: 'Шаблоны\АПС\Протокол  Заземления и изоляции.docx'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в DocFormer.Templates.APS.VControl.ПротоколЗаземления(List`1 customers, Objects obj, ActsProperties ap) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 882
+08-02-2018 16:07:25|FATAL|TESTNET|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 424|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 424
+08-02-2018 16:15:13|FATAL|TESTNET|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 424|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 424
+08-02-2018 16:15:13|FATAL|TESTNET|System.Collections.Generic.List`1[DocFormer.Core.Models.Customers]|
+08-02-2018 16:15:13|FATAL|TESTNET|Сформированные документы\АПС\08.02.2018\Протокол Заземления и изоляции.docx|
+08-02-2018 16:29:06|FATAL|TESTNET|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 430|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 430
+08-02-2018 16:29:06|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: ActType_Single Podr_Organization_LicenseNumber Podr_Organization_LicenseValidityPeriod Podr_Organization_LicenseIssued Podr_Organization_Address Proj_Organization_LicenseNumber Proj_Organization_LicenseValidityPeriod Proj_Organization_LicenseIssued Proj_Organization_Address |
+08-02-2018 16:29:06|FATAL|TESTNET|Сформированные документы\АПС\08.02.2018\Протокол Заземления и изоляции.docx|
+08-02-2018 16:45:49|FATAL|TESTNET|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 430|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: value
+   в System.Xml.Linq.XElement.set_Value(String value)
+   в TemplateEngine.Docx.XElementExtensions.ReplaceContentControlWithNewValue(XElement sdt, String newValue)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IContentItem item)
+   в TemplateEngine.Docx.Processors.FieldsProcessor.FillContent(XElement contentControl, IEnumerable`1 items)
+   в TemplateEngine.Docx.Processors.ContentProcessor.FillContent(XElement content, IEnumerable`1 data)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 430
+08-02-2018 16:45:50|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: ActType_Single Podr_Organization_Address Proj_Organization_Address |
+08-02-2018 16:45:50|FATAL|TESTNET|Сформированные документы\АПС\08.02.2018\Протокол Заземления и изоляции.docx|
+08-02-2018 16:46:55|FATAL|TESTNET|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в TemplateEngine.Docx.FieldContent.Equals(FieldContent other)
+   в TemplateEngine.Docx.FieldContent.Equals(IContentItem other)
+   в TemplateEngine.Docx.Errors.ContentControlNotFoundError.Equals(IError other)
+   в System.Collections.Generic.GenericEqualityComparer`1.Equals(T x, T y)
+   в System.Collections.Generic.List`1.Contains(T item)
+   в TemplateEngine.Docx.Processors.ProcessResult.AddError(IError error)
+   в TemplateEngine.Docx.Processors.ProcessResult.Merge(ProcessResult another)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 430|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в TemplateEngine.Docx.FieldContent.Equals(FieldContent other)
+   в TemplateEngine.Docx.FieldContent.Equals(IContentItem other)
+   в TemplateEngine.Docx.Errors.ContentControlNotFoundError.Equals(IError other)
+   в System.Collections.Generic.GenericEqualityComparer`1.Equals(T x, T y)
+   в System.Collections.Generic.List`1.Contains(T item)
+   в TemplateEngine.Docx.Processors.ProcessResult.AddError(IError error)
+   в TemplateEngine.Docx.Processors.ProcessResult.Merge(ProcessResult another)
+   в TemplateEngine.Docx.TemplateProcessor.FillContent(Content content)
+   в DocFormer.Templates.APS.VControl.FillWordTemplate(List`1 customers, Objects obj, List`1 tech, ActsProperties ap, String docPath) в C:\Users\Admin\source\repos\DocFormer\DocFormer.Templates\APS\VControl.cs:строка 430
+08-02-2018 16:46:55|FATAL|TESTNET|Какое то из необходимых для заполнения значений не заполнено: ActType_Single |
+08-02-2018 16:46:55|FATAL|TESTNET|Сформированные документы\АПС\08.02.2018\Протокол Заземления и изоляции.docx|
